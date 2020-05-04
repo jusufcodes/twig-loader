@@ -1,6 +1,6 @@
 {
   "name": "@jusufcodes/twig-loader",
-  "version": "0.5.2",
+  "version": "0.5.0",
   "description": "Webpack loader for compiling twig.js templates",
   "main": "index.js",
   "scripts": {
@@ -10,8 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/jusufcodes/twig-loader.git"
   },
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
-  "author": "Mathieu Maes @ Zimmo.be",
+  "author": "Jusufcodes",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/zimmo-be/twig-loader/issues"
