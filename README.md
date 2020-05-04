@@ -3,7 +3,7 @@ Webpack loader for compiling Twig.js templates. This loader will allow you to re
 
 ## Installation
 
-`npm install @jsufcodes/twig-loader`
+`npm install twig-loader-x --save-dev`
 
 ## Usage
 
@@ -18,7 +18,7 @@ module.exports = {
         rules: [
             {
                 test: /\.twig$/,
-                loader: "twig-loader",
+                loader: 'twig-loader-x',
                 options: {
                     // See options section below
                     namespaces: {
@@ -35,6 +35,18 @@ module.exports = {
 };
 ```
 
+### Namespaces in Webpack example
+```
+{
+    test: /\.twig$/,
+    loader: 'twig-loader-x',
+    options: {
+        namespaces: {
+            '@Components': '/your/path/file/'
+        }
+    }
+}
+```
 ### Options
 
 - `extender`: optional; the full path to a module which exports a `function(Twig)`
